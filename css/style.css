@@ -1,0 +1,17 @@
+:root {
+    --color: #24BA9F;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    widows: 1050px;
+    margin: 0 auto;
+}
+
