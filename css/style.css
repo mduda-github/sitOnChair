@@ -57,7 +57,7 @@ body {
 }
 
 /* -------------------------------------------------------------- */
-/* page header */
+/* * * * * * * * * * * * * * * nagłówek * * * * * * * * * * * * * */
 /* -------------------------------------------------------------- */
 
 .page-header {
@@ -95,7 +95,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 
 .page-nav-list-el {
@@ -191,7 +190,6 @@ body {
     background: linear-gradient(#fff, #cecece) ;
 }
 
-
 .banner {
     height: 500px;
     display: flex;
@@ -211,6 +209,7 @@ body {
     outline: none;
 
 }
+
 .banner-next:focus {
     outline: none;
 
@@ -226,7 +225,6 @@ body {
     position: relative;
     /*margin: 5px;*/
 }
-
 
 .banner-slide {
     position: absolute;
@@ -269,7 +267,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: auto 0;
-    padding: 5px;
+    padding-right: 35px;
 }
 
 .banner-slide-contents strong {
@@ -335,37 +333,26 @@ body {
 
 .information-boxes--box1 {
     background-image: url("../images/box1_img.jpg");
+    position: relative;
 }
 
-.information-boxes--box1:after {
-    content: "";
+.box-block1, .box-block2 {
     height: 60px;
     width: 330px;
-    display: block;
     background-color: rgba(255,255,255,0.4);
     position: absolute;
-    top: 150px
+    top: 150px;
 }
 
 .information-boxes--box2 {
     background-image: url("../images/box2_img.jpg");
 }
 
-.information-boxes--box2:after {
-    content: "";
-    height: 60px;
-    width: 330px;
-    display: block;
-    background-color: rgba(255,255,255,0.4);
-    position: absolute;
-    top: 150px
-}
-
 .information-boxes--box3 {
     height: 250px;
 }
 
-.box-name {
+.box-name, .box-name1, .box-name2 {
     position: absolute;
     bottom: 45px;
     font-size: 16px;
@@ -374,6 +361,17 @@ body {
     color: black;
     z-index: 1;
 }
+
+.box-name1:after, .box-name2:after {
+    content: "";
+    height: 8px;
+    width: 140px;
+    display: block;
+    background-color: var(--color);
+    position: absolute;
+    top: 20px
+}
+
 
 .box-name:after {
     content: "";
@@ -701,7 +699,6 @@ textarea.form-control {
 .form-checkbox-text {
 
 }
-
 
 .form-submit-btn {
     width: 100%;
