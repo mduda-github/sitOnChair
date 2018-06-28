@@ -64,32 +64,10 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log(slides);
     console.log(prev);
     console.log(next);
-    /*
-    var pics = document.querySelectorAll("li");
-    var prev = document.getElementById("prevPicture");
-    var next = document.getElementById("nextPicture");
-    var index = 0;
 
-    pics[index].classList.add("visible");
+    // kalkulator
 
-    prev.addEventListener("click", function(e) {
-        pics[index].classList.remove("visible");
-        index--;
-        if(index < 0) {
-            index = pics.length - 1;
-        }
-        pics[index].classList.add("visible");
-    });
+    var list1 = document.querySelector(".")
 
-    next.addEventListener("click", function(e) {
-        pics[index].classList.remove("visible");
-        index++;
-        if (index >= pics.length) {
-            index = 0;
-        }
-        pics[index].classList.add("visible");
-
-    });
-    * */
 
 });
