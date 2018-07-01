@@ -49,21 +49,32 @@ document.addEventListener("DOMContentLoaded", function() {
             index = slides.length - 1;
         }
         slides[index].classList.add("banner-slide-active");
+        clearTimeout(timer);
+        timeoutNextSlide();
     });
 
-    next.addEventListener("click", function(e) {
+    next.addEventListener("click", function() {
         slides[index].classList.remove("banner-slide-active");
         index++;
         if (index >= slides.length) {
             index = 0;
         }
         slides[index].classList.add("banner-slide-active");
-
+        clearTimeout(timer);
+        timeoutNextSlide();
     });
 
-    console.log(slides);
-    console.log(prev);
-    console.log(next);
+
+    // Automatyczna zmiana slajdów
+
+    var timer = null;
+    var timeoutNextSlide = function() {
+        timer = setTimeout(function() {
+            next.click();
+        }, 5000);
+    };
+
+    timeoutNextSlide();
 
     // Drop-down
 
