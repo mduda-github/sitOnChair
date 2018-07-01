@@ -692,6 +692,11 @@ body {
     padding: 4px 0;
 }
 
+.panel-list a {
+    text-decoration: none;
+    color: black;
+}
+
 .last-list {
     height: 75px;
 }
@@ -733,6 +738,73 @@ body {
     width: 350px;
 
 }
+
+.calc-container {
+    background-color: white;
+    min-height: 250px;
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+}
+.calc-row {
+    display: flex;
+    justify-content: space-between;
+}
+.calc-products {
+    border-bottom: 1px solid rgb(241,241,241);
+    width: 60%;
+    text-align: left;
+    min-height: 180px;
+}
+
+.calc-products div {
+    color: var(--color);
+}
+.calc-products p {
+    color: rgb(89,89,89);
+    line-height: 10px;
+}
+
+.calc-price {
+    border-bottom: 1px solid rgb(241,241,241);
+    border-left: 1px solid rgb(241,241,241);
+    width: 40%;
+    text-align: right;
+    min-height: 180px;
+    color: var(--color);
+}
+
+.calc-price p {
+    line-height: 10px;
+}
+
+.calc-summary {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(89,89,89);
+    margin-top: 10px;
+
+}
+.calc-summary-sum {
+    color: var(--color);
+
+}
+
+.btn-order {
+    margin-top: 20px;
+    margin-right: 29px;
+    padding: 10px 90px;
+    font-size: 20px;
+
+}
+
+.calc-price--space {
+    display: none;
+}
+
+
+
 
 /* -------------------------------------------------------------- */
 /* * * * * * * * * * * *  formularz * * * * * * * * * * * * * * * */
