@@ -681,7 +681,10 @@ body {
     z-index: 2;
     position: absolute;
     top: 58px;
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
+    transition: 0.2s;
+    opacity: 0;
 }
 
 
@@ -707,6 +710,7 @@ body {
     border: 1px solid #24baa0;
     height: 48px;
     width: 48px;
+    background-color: white;
 }
 
 .application-checkbox .list-label {
