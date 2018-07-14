@@ -64,7 +64,7 @@ body {
 }
 
 /* -------------------------------------------------------------- */
-/* * * * * * * * * * * * * * * nagłówek * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * navigation * * * * * * * * * * * * * */
 /* -------------------------------------------------------------- */
 
 .page-header {
@@ -91,10 +91,6 @@ body {
 
 .page-logo span {
     color: var(--color);
-}
-
-.page-nav {
-
 }
 
 .page-nav-list {
@@ -137,7 +133,6 @@ body {
     margin: 0;
     background: black;
     padding: 10px;
-
     opacity: 0;
     visibility: hidden;
     transition: 0.5s opacity;
@@ -163,7 +158,6 @@ body {
     top: -20px;
     left: 50%;
     transform: translate(-50%, 0);
-
 }
 
 .page-nav-sublist:after {
@@ -174,7 +168,6 @@ body {
     position: absolute;
     top: -20px;
     left: 0;
-
 }
 
 .page-nav-sublist-el {}
@@ -182,7 +175,6 @@ body {
     color: white;
     text-decoration: none;
     line-height: 1.5em;
-
 }
 
 .page-nav-sublist-link:hover {
@@ -209,22 +201,19 @@ body {
     border: 0;
     font-size: 70px;
     color: var(--color);
-    /*margin: 5px;*/
+    cursor: pointer;
 }
 
 .banner-prev:focus {
     outline: none;
-
 }
 
 .banner-next:focus {
     outline: none;
-
 }
 
 .banner-next {
     order: 1;
-
 }
 
 .banner-slides {
@@ -261,7 +250,6 @@ body {
     bottom: 5px;
     width: 100%;
     height: auto;
-
 }
 
 .banner-slide-contents {
@@ -284,7 +272,6 @@ body {
 .banner-title {
     word-spacing: 5px;
     text-align: center;
-
 }
 
 .banner-text {
@@ -295,13 +282,11 @@ body {
     text-transform: initial;
     line-height: 1.6;
     margin: 30px 0;
-
 }
 
 .banner-btn {
     /*margin-top: 30px;*/
     font-size: 30px;
-
 }
 
 .banner-slide-active {
@@ -310,7 +295,7 @@ body {
 }
 
 /* -------------------------------------------------------------- */
-/* * * * * * * * * * * *  informacje  * * * * * * * * * * * * * * */
+/* * * * * * * * * * * *  information * * * * * * * * * * * * * * */
 /* -------------------------------------------------------------- */
 
 .main-information {
@@ -327,7 +312,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 30px;
-
 }
 
 .information-boxes {
@@ -402,7 +386,7 @@ body {
 }
 
 /* -------------------------------------------------------------- */
-/* * * * * * * * * * * * *   cennik   * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * *   price    * * * * * * * * * * * * * * */
 /* -------------------------------------------------------------- */
 
 
@@ -468,7 +452,6 @@ body {
     position: relative;
     background-color: var(--color);
     border: 2px solid var(--color);
-
 }
 
 .price-boxes--box2:before {
@@ -622,13 +605,14 @@ body {
 }
 
 /* -------------------------------------------------------------- */
-/* * * * * * * * * * * *  kalkulator * * * * * * * * * * * * * *  */
+/* * * * * * * * * * * *  calculator * * * * * * * * * * * * * *  */
 /* -------------------------------------------------------------- */
 
 .application {
     background-color: #f9f9f9;
 
 }
+
 .application .container{
     height: 470px;
     /*padding: 5px 0 0 0;*/
@@ -653,6 +637,7 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .drop-down-list {
     border: 1px solid #8de0d2;
     width: 100%;
@@ -661,12 +646,13 @@ body {
     padding: 12px;
     position: relative;
 }
+
 .list-label {
     font-size: 30px;
     color: rgb(219,219,219);
     font-family: 'ralewaylight', Arial, Tahoma, sans-serif;
-
 }
+
 .list-arrow {
     width: 0;
     height: 0;
@@ -679,6 +665,7 @@ body {
     top: 25px;
     cursor: pointer;
 }
+
 .panel-list {
     background-color: white;
     border: 1px solid #ccc;
@@ -698,7 +685,6 @@ body {
     transition: 0.2s;
     opacity: 0;
 }
-
 
 .panel-list li {
     padding: 4px 0;
@@ -735,11 +721,8 @@ body {
     left: 65px;
 }
 
-
-
 .image-part {
     width: 350px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -758,10 +741,12 @@ body {
     padding: 10px;
     font-size: 22px;
 }
+
 .calc-row {
     display: flex;
     justify-content: space-between;
 }
+
 .calc-products {
     border-bottom: 1px solid rgb(241,241,241);
     width: 60%;
@@ -772,6 +757,7 @@ body {
 .calc-products div {
     color: var(--color);
 }
+
 .calc-products p {
     color: rgb(89,89,89);
     line-height: 10px;
@@ -798,9 +784,9 @@ body {
     margin-top: 10px;
 
 }
+
 .calc-summary-sum {
     color: var(--color);
-
 }
 
 .btn-order {
@@ -808,7 +794,6 @@ body {
     margin-right: 29px;
     padding: 10px 90px;
     font-size: 20px;
-
 }
 
 .calc-price--space {
@@ -819,7 +804,7 @@ body {
 
 
 /* -------------------------------------------------------------- */
-/* * * * * * * * * * * *  formularz * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * *  application * * * * * * * * * * * * * * */
 /* -------------------------------------------------------------- */
 
 .form {
@@ -829,17 +814,14 @@ body {
 
 .form-left {
     width: 630px;
-
 }
 
 .form-right {
     width: 340px;
-
 }
 
 .form-row {
     margin-bottom: 28px;
-
 }
 
 .form-addon {
@@ -904,20 +886,15 @@ textarea.form-control {
     background-repeat: no-repeat;
 }
 
-.form-checkbox-text {
-
-}
-
 .form-submit-btn {
     width: 100%;
     font-size: 34px;
     font-weight: 700;
     padding: 20px;
-
 }
 
 /* -------------------------------------------------------------- */
-/* * * * * * * * * * * * *   stopka   * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * *   footer   * * * * * * * * * * * * * * */
 /* -------------------------------------------------------------- */
 
 footer .container {
